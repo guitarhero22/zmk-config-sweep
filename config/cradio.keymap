@@ -117,10 +117,10 @@
 
         left_layer {
             bindings = <
-&kp N1          &kp N2     &kp N3        &kp NUMBER_4      &kp N5           &kp NUMBER_6  &kp N7            &kp N8             &kp N9     &kp N0
-&kp LEFT_SHIFT  &kp EQUAL  &kp LEFT_ALT  &kp LEFT_GUI      &kp BACKSPACE    &kp BSLH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp ENTER
-&kp TAB         &none      &kp LA(LBKT)  &kp LA(LS(LBKT))  &kp ESC          &kp MINUS     &kp EQUAL         &trans             &trans     &kp SINGLE_QUOTE
-                                         &to 0             &kp SPACE        &sk RALT      &to 2
+&kp N1          &kp N2     &kp N3                &kp NUMBER_4           &kp N5       &kp NUMBER_6  &kp N7            &kp N8             &kp N9     &kp N0
+&kp LEFT_SHIFT  &kp GRAVE  &kp LEFT_ALT          &kp LEFT_GUI           &kp SQT      &kp BSLH      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp ENTER
+&to 0           &none      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ESC      &kp MINUS     &kp EQUAL         &trans             &trans     &trans
+                                                 &trans                 &kp SPACE    &sk RALT      &to 2
             >;
         };
 
